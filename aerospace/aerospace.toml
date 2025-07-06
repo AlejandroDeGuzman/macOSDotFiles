@@ -87,7 +87,7 @@ ctrl-shift-4 = 'move-node-to-workspace 4'
 ctrl-shift-5 = 'move-node-to-workspace 5'
 
 # Workspace toggles
-ctrl-tab = 'workspace-back-and-forth'
+alt-tab = 'workspace-back-and-forth'
 ctrl-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 # Switch to service mode
