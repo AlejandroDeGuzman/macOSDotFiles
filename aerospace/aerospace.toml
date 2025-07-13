@@ -2,11 +2,8 @@
 # Place a copy of this config to ~/.aerospace.toml
 # After that, you can edit ~/.aerospace.toml to your liking
 
-after-login-command = [
-	"exec-and-forget sketchybar",
-]
-
 after-startup-command = [
+	"exec-and-forget sketchybar",
   'exec-and-forget brew services restart sketchybar'
 ]
 
