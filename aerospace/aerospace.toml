@@ -51,7 +51,7 @@ outer.right =      10
 
 # Launch iTerm new window
 ctrl-t = 'exec-and-forget osascript ~/.config/aerospace/new_iterm_window.scpt'
-ctrl-b = 'exec-and-forget open -na "Zen Browser"'
+ctrl-b = 'exec-and-forget open -na "Safari"'
 
 ctrl-slash = 'layout tiles horizontal vertical'
 ctrl-comma = 'layout accordion horizontal vertical'
