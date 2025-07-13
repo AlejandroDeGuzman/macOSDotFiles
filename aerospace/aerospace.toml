@@ -37,12 +37,12 @@ automatically-unhide-macos-hidden-apps = false
 preset = 'qwerty'
 
 [gaps]
-inner.horizontal = 10
-inner.vertical =   10
-outer.left =       10
-outer.bottom =     10
-outer.top =        50 
-outer.right =      10
+inner.horizontal = 5 
+inner.vertical =   5 
+outer.left =       5 
+outer.bottom =     5 
+outer.top =        40 
+outer.right =      5 
 
 [mode.main.binding]
 
