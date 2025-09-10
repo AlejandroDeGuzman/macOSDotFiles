@@ -37,20 +37,29 @@ automatically-unhide-macos-hidden-apps = false
 preset = 'qwerty'
 
 [gaps]
-inner.horizontal = 5 
-inner.vertical =   5 
-outer.left =       5 
-outer.bottom =     5 
+inner.horizontal = 10 
+inner.vertical =   10 
+outer.left =       10  
+outer.bottom =     10 
 outer.top =        40 
-outer.right =      5 
+outer.right =      10 
 
 [mode.main.binding]
 
 # Launch iTerm new window
-ctrl-t = 'exec-and-forget osascript ~/.config/aerospace/new_iterm_window.scpt'
+ctrl-t = '''exec-and-forget osascript -e '
+tell application "iTerm2"
+    create window with default profile
+    activate
+end tell'
+'''
 
-ctrl-b = 'exec-and-forget open -na "Safari"'
-
+ctrl-b = '''exec-and-forget osascript -e '
+tell application "Safari"
+    make new document at end of documents
+    activate
+end tell'
+'''
 ctrl-f = "exec-and-forget /usr/bin/osascript -e 'tell application \"Finder\" to make new Finder window' -e 'activate'"
 
 ctrl-slash = 'layout tiles horizontal vertical'
