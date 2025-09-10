@@ -46,6 +46,9 @@ outer.right =      10
 
 [mode.main.binding]
 
+ctrl-shift-space = 'layout floating tiling' # 'floating toggle' in i3
+ctrl-e = 'layout tiles horizontal vertical' # 'layout toggle split' in i3
+
 # Launch iTerm new window
 ctrl-t = '''exec-and-forget osascript -e '
 tell application "iTerm2"
