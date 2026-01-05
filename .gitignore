@@ -1,9 +1,13 @@
-# uncessary applications
-zed
-filezilla
-borders
+.config/*
 
-# nvim
+# Unnecessary applications
+zed/
+filezilla/
+borders/
+neofetch/
+raycast/
+
+# Nvim
 nvim/.DS_Store
 nvim/.luarc.json
 nvim/.neoconf.json
@@ -15,6 +19,16 @@ fish/themes/
 fish/fish_variables
 fish/fishd.tmp.*
 
+# Keep these configs
+!.config/fish/
+!.config/nvim/
+!.config/aerospace/
+!.config/iterm2/
+!.config/omf/
+!.config/raycast/
+!.config/sketchybar/
+
+# But still apply the ignore rules above within kept folders
 !fish/config.fish
 !fish/functions/
 !fish/fish_plugins
