@@ -1,4 +1,7 @@
-zed/
+# uncessary applications
+zed
+filezilla
+borders
 
 # nvim
 nvim/.DS_Store
