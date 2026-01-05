@@ -1,3 +1,14 @@
-fish/
 nvim/
 zed/
+
+# Fish - ignore auto-generated files
+fish/completions/
+fish/conf.d/
+fish/themes/
+fish/fish_variables
+fish/fishd.tmp.*
+
+# Keep your custom config
+!fish/config.fish
+!fish/functions/
+!fish/fish_plugins
