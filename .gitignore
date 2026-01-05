@@ -1,5 +1,9 @@
-nvim/
 zed/
+
+# nvim
+nvim/.DS_Store
+nvim/.luarc.json
+nvim/.neoconf.json
 
 # Fish - ignore auto-generated files
 fish/completions/
@@ -8,7 +12,6 @@ fish/themes/
 fish/fish_variables
 fish/fishd.tmp.*
 
-# Keep your custom config
 !fish/config.fish
 !fish/functions/
 !fish/fish_plugins
