@@ -1,8 +1,10 @@
 # macOS Dotfiles
 
 My personal macOS configuration files and setup.
-<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/573e5861-20e4-4905-9f1c-a1ce3c09ac46" />
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/e3c3865d-6ee7-4fbf-b339-da677d7183ac" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/cdd21b77-7357-43a2-9dbc-3c6b40f185a5" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/573e5861-20e4-4905-9f1c-a1ce3c09ac46" />
+
 
 
 
